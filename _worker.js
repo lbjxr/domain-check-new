@@ -5,6 +5,15 @@ let tgid = ""; //变量名TGID，填入TG机器人ID，不需要提醒则不填
 let tgtoken = ""; //变量名TGTOKEN，填入TG的TOKEN，不需要提醒则不填
 let days = 7; //变量名DAYS，提前几天发送TG提醒，默认为7天，必须为大于0的整数
 
+// 背景图片API配置
+const bgImageAPIs = {
+  bing: 'https://bing.img.run/1920x1080.php',
+  unsplash: 'https://source.unsplash.com/random/1920x1080',
+  picsum: 'https://picsum.photos/1920/1080',
+  // 添加备用API
+  bingFallback: 'https://api.dujin.org/bing/1920.php'
+};
+
 //发送消息方法，默认只支持TG
 async function sendtgMessage(message, tgid, tgtoken) {
   if (!tgid || !tgtoken) return;
@@ -113,7 +122,7 @@ async function editDomainInKV(env, updatedDomainInfo) {
 // 生成密码验证页面
 async function generatePasswordPage() {
   const siteIcon = 'https://pan.811520.xyz/icon/domain.png';
-  const bgimgURL = 'https://bing.img.run/1920x1080.php';
+  const bgimgURL = bgImageAPIs.bing; // 使用必应每日图片
   
   return `
     <!DOCTYPE html>
@@ -218,7 +227,7 @@ async function generatePasswordPage() {
 // 生成域名列表页面
 async function generateDomainListPage(domains, SITENAME) {
   const siteIcon = 'https://pan.811520.xyz/icon/domain.png';
-  const bgimgURL = 'https://bing.img.run/1920x1080.php';
+  const bgimgURL = bgImageAPIs.bing; // 使用必应每日图片
   const rows = await Promise.all(domains.map(async info => {
     const registrationDate = new Date(info.registrationDate);
     const expirationDate = new Date(info.expirationDate);
