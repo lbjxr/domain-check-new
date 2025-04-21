@@ -122,7 +122,7 @@ async function editDomainInKV(env, updatedDomainInfo) {
 // 生成密码验证页面
 async function generatePasswordPage() {
   const siteIcon = 'https://pan.811520.xyz/icon/domain.png';
-  const bgimgURL = bgImageAPIs.bing; // 使用必应每日图片
+  const bgimgURL = 'https://www.dmoe.cc/random.php'; // 使用必应每日图片
   
   return `
     <!DOCTYPE html>
