@@ -300,6 +300,7 @@ async function generateDomainListPage(domains, SITENAME) {
     return `
     <tr data-domain="${info.domain}" draggable="true">
         <td><span class="status-dot" style="background-color: ${statusColor};" title="${statusText}"></span></td>
+        <td>${info.sortOrder}</td>
         <td>${info.domain}</td>
         <td><a href="${info.systemURL}" target="_blank">${info.system}</a></td>
         <td>${info.registrationDate}</td>
@@ -538,12 +539,13 @@ async function generateDomainListPage(domains, SITENAME) {
             <thead>
               <tr>
                 <th onclick="sortTable(0)">状态</th>
-                <th onclick="sortTable(1)">域名</th>
-                <th onclick="sortTable(2)">域名注册商</th>
-                <th onclick="sortTable(3)">注册时间</th>
-                <th onclick="sortTable(4)">过期时间</th>
-                <th onclick="sortTable(5)">剩余天数</th>
-                <th onclick="sortTable(6)">使用进度</th>
+                <th onclick="sortTable(1)">序号</th>
+                <th onclick="sortTable(2)">域名</th>
+                <th onclick="sortTable(3)">域名注册商</th>
+                <th onclick="sortTable(4)">注册时间</th>
+                <th onclick="sortTable(5)">过期时间</th>
+                <th onclick="sortTable(6)">剩余天数</th>
+                <th onclick="sortTable(7)">使用进度</th>
                 <th>备注</th>
                 <th>操作</th>
               </tr>
