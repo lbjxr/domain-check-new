@@ -1,7 +1,7 @@
 # domain-check-new
 这是一个简洁高效的域名可视化展示面板，基于Cloudflare Workers构建。它提供了一个直观的界面，让用户能够一目了然地查看他们域名的状态、注册商、注册日期、过期日期和使用进度，并可在到期前通过TG机器人向用户推送通知。
 
-## 项目基于yutian81的项目<https://github.com/yutian81/domain-check>进行完善，增加了密码登录、编辑删除功能
+## 项目基于[yutian81的项目](https://github.com/yutian81/domain-check)进行完善，增加了密码登录、编辑删除功能
 
 **原版DEMO**：<https://domains.yutian81.top>  
 
@@ -95,3 +95,6 @@
 
 ## 致谢
 [ypq123456789](https://github.com/ypq123456789/domainkeeper)
+
+## 赞助和支持
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
