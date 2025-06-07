@@ -95,6 +95,3 @@
 
 ## 致谢
 [ypq123456789](https://github.com/ypq123456789/domainkeeper)
-
-## 赞助和支持
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
