@@ -93,5 +93,11 @@
 ]
 ```
 
+## 技术和服务支持
+感谢EdgeOne提供的cdn支持。
+![34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b](https://github.com/user-attachments/assets/9dac04bb-f29e-4b27-afb2-17902059ed9f)
+
+[亚洲最佳CDN、边缘和安全解决方案 - Tencent EdgeOne]([https://github.com/ypq123456789/domainkeeper](https://edgeone.ai/zh?from=github))
+
 ## 致谢
 [ypq123456789](https://github.com/ypq123456789/domainkeeper)
