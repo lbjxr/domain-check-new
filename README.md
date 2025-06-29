@@ -99,5 +99,11 @@
 
 [亚洲最佳CDN、边缘和安全解决方案 - Tencent EdgeOne](https://edgeone.ai/zh?from=github)
 
+## 赞助
+本项目开发环境存储由[NETJETT](https://netjett.com/)赞助。
+![NETJETT (自定义)](https://github.com/user-attachments/assets/23075324-62c4-4ac4-92ad-f606dc77f0cf)
+
+
+
 ## 致谢
 [ypq123456789](https://github.com/ypq123456789/domainkeeper)
